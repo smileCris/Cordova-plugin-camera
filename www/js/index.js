@@ -43,7 +43,7 @@ var app = {
       // 打开图片库
       navigator.camera.getPicture(onSuccess, onFail, {
         quality: 50,                                            // 相片质量是50
-        sourceType: Camera.PictureSourceType.Camera,            // 设置从摄像头拍照获取
+        sourceType: Camera.PictureSourceType.CAMERA,            // 设置从摄像头拍照获取
         destinationType: Camera.DestinationType.FILE_URI        // 以文件路径返回
       });
 
